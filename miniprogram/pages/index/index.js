@@ -19,7 +19,8 @@ Component({
     onMyEvent: function (e) {
       this.setData({
         selectedBottomNavToIndex: e.detail.selectedBottomNavToIndex
-      })
+      });
+      
     }
   }
 

@@ -12,7 +12,20 @@ App({
         //   如不填则使用默认环境（第一个创建的环境）
         // env: 'my-env-id',
         traceUser: true,
+      });
+      wx.cloud.callFunction({
+        // 云函数名称
+        name: 'addtest',
+        // 传给云函数的参数
+        data: {
+          a: 1,
+          b: 2,
+        },
       })
+        .then(res => {
+          console.log(res.result.sum) // 3
+        })
+        .catch(console.error)
     }
 
     this.globalData = {}
