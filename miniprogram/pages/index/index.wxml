@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <view wx:if="{{selectedBottomNavToIndex == 0}}">健康情况</view>
+    <view wx:elif="{{selectedBottomNavToIndex == 1}}">活动范围</view>
+    <view wx:elif="{{selectedBottomNavToIndex == 2}}">消毒水平</view>
+    <view wx:else="{{selectedBottomNavToIndex == 3}}">社会关系</view>
+  <custom-nav bind:myevent="onMyEvent"/>
+</view>
