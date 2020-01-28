@@ -13,6 +13,12 @@ Component({
    * 组件的初始数据
    */
   data: {
+    selectedColor:[
+      "#f44336",
+      "#ff9800",
+      "#03a9f4",
+      "#009688"
+    ],
     imgWidth:[
       "27px",
       "27px",
@@ -33,7 +39,6 @@ Component({
     ],
     selected: 0,
     color: "#90a4ae",
-    selectedColor: "#008394",
     list: [{
       iconPath: "health.png",
       selectedIconPath: "health_HL.png",
@@ -66,6 +71,7 @@ Component({
    */
   methods: {
     switchTab(e){
+      wx.vibrateShort();
       const data = e.currentTarget.dataset;
       if (data.index == this.data.selected) {
         return;

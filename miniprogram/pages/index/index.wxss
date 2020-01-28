@@ -1,7 +1,7 @@
 /**index.wxss**/
 
 page {
-  background: #008394;
+  background: #fafafa;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -15,16 +15,16 @@ page {
   margin: 20rpx;
   margin-top: 50rpx;
   border-radius: 50%;
-  border: 2px solid #fafafa;
+  border: 2px solid #e0e0e0;
 }
  
 .user-nick-name{
   /* color: #fff; */
   font-size: 12px;
-  color: #fafafa;
+  color: #636363;
   border-radius:40%;
 }
 
 .container{
-  background-color: #008394;
+  background-color: #fafafa;
 }

@@ -3,9 +3,9 @@
     "pages/index/index"
   ],
   "window": {
-    "backgroundColor": "#008394",
+    "backgroundColor": "#fafafa",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#008394",
+    "navigationBarBackgroundColor": "#fafafa",
     "navigationBarTitleText": "2019-nCoV 数据共享",
     "navigationBarTextStyle": "black"
   },
