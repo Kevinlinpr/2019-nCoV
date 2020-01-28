@@ -6,7 +6,7 @@
     "backgroundColor": "#fafafa",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fafafa",
-    "navigationBarTitleText": "2019-nCoV 数据共享",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",

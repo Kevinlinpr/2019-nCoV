@@ -1,6 +1,10 @@
 {
   "component": true,
   "usingComponents": {
-    "custom-nav": "/components/bottomNav/bottomNav"
+    "custom-nav": "/components/bottomNav/bottomNav",
+    "health-page": "/components/healthPage/healthPage",
+    "activity-page": "/components/activityPage/activityPage",
+    "virus-page": "/components/virusPage/virusPage",
+    "social-page": "/components/socialPage/socialPage"
   }
 }

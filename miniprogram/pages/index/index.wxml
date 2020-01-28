@@ -1,12 +1,17 @@
 <!--index.wxml-->
 <view class="container">
-    <view wx:if="{{selectedBottomNavToIndex == 0}}">健康情况</view>
-    <view wx:elif="{{selectedBottomNavToIndex == 1}}">活动范围</view>
-    <view wx:elif="{{selectedBottomNavToIndex == 2}}">消毒水平</view>
-    <view wx:else="{{selectedBottomNavToIndex == 3}}">社会关系</view>
-    <view class="userinfo-avatar">
-    <open-data type="userAvatarUrl"></open-data>
-  </view>
-    <open-data class="user-nick-name" type="userNickName" lang="zh_CN"></open-data>
-  <custom-nav bind:myevent="onMyEvent"/>
+    
+    <view wx:if="{{selectedBottomNavToIndex == 0}}">
+    <health-page/>
+    </view>
+    <view wx:elif="{{selectedBottomNavToIndex == 1}}">
+    <activity-page/>
+    </view>
+    <view wx:elif="{{selectedBottomNavToIndex == 2}}">
+    <virus-page/>
+    </view>
+    <view wx:else="{{selectedBottomNavToIndex == 3}}">
+    <social-page/>
+    </view>
+    <custom-nav bind:myevent="onMyEvent"/>
 </view>
