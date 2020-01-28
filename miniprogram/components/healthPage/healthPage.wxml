@@ -1,27 +1,43 @@
 <!--components/healthPage/healthPage.wxml-->
 <view class="flex-wrp" style="flex-direction:column;">
-    <view class="flex-item bc_red">
-    <view class="flex-item bc_blue">
+    <view class="flex-item back">
+    <view class="flex-item buttom-group">
      <view class="flex-wrp" style="flex-direction:column;">
-        <view class="flex-item bc_red-a">
-          <view class="flex-item bc_red-a-l">a l</view>
-          <view class="flex-item bc_red-a-r">a r</view>
+        <view class="flex-item buttom-group-l1">
+          <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item buttom-group-l1-l">
+                  <cover-image src="./toutong_HL.png" style="width:100px;height:100px"></cover-image>
+                </view>
+                <view class="flex-item buttom-group-l1-r">
+                  <cover-image src="./ganmao_HL.png" style="width:100px;height:100px"></cover-image>
+                </view>
+          </view>
         </view>
-        <view class="flex-item bc_red-driver"></view>
-        <view class="flex-item bc_red-b">
-          <view class="flex-item bc_red-b-l">b l</view>
-          <view class="flex-item bc_red-b-driver"></view>
-          <view class="flex-item bc_red-b-m">b m</view>
-          <view class="flex-item bc_red-b-driver"></view>
-          <view class="flex-item bc_red-b-r">b r</view>
+        <view class="flex-item buttom-group-l2">
+          <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item buttom-group-l2-l">
+                  <cover-image src="./huxikunnan_HL.png" style="width:100px;height:100px"></cover-image>
+                </view>
+                <view class="flex-item buttom-group-l2-m">
+                  
+                </view>
+                <view class="flex-item buttom-group-l2-r">
+                <cover-image src="./changweibushi_HL.png" style="width:100px;height:100px"></cover-image>
+                </view>
+          </view>
         </view>
-        <view class="flex-item bc_red-driver"></view>
-        <view class="flex-item bc_red-c">
-          <view class="flex-item bc_red-c-l">c l</view>
-          <view class="flex-item bc_red-c-driver"></view>
-          <view class="flex-item bc_red-c-m">c m</view>
-          <view class="flex-item bc_red-c-driver"></view>
-          <view class="flex-item bc_red-c-r">c r</view>
+        <view class="flex-item buttom-group-l3">
+          <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item buttom-group-l3-l">
+                <cover-image src="./fashao_HL.png" style="width:100px;height:100px"></cover-image>
+                </view>
+                <view class="flex-item buttom-group-l3-m">
+                <cover-image src="./zhengchang_HL.png" style="width:100px;height:100px"></cover-image>
+                </view>
+                <view class="flex-item buttom-group-l3-r">
+                <cover-image src="./kesou_HL.png" style="width:100px;height:100px"></cover-image>
+                </view>
+          </view>
         </view>
       </view>
     </view>
