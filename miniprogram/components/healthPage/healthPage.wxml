@@ -1,2 +1,30 @@
 <!--components/healthPage/healthPage.wxml-->
-<text>components/healthPage/healthPage.wxml</text>
+<view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item bc_red">
+    <view class="flex-item bc_blue">
+     <view class="flex-wrp" style="flex-direction:column;">
+        <view class="flex-item bc_red-a">
+          <view class="flex-item bc_red-a-l">a l</view>
+          <view class="flex-item bc_red-a-r">a r</view>
+        </view>
+        <view class="flex-item bc_red-driver"></view>
+        <view class="flex-item bc_red-b">
+          <view class="flex-item bc_red-b-l">b l</view>
+          <view class="flex-item bc_red-b-driver"></view>
+          <view class="flex-item bc_red-b-m">b m</view>
+          <view class="flex-item bc_red-b-driver"></view>
+          <view class="flex-item bc_red-b-r">b r</view>
+        </view>
+        <view class="flex-item bc_red-driver"></view>
+        <view class="flex-item bc_red-c">
+          <view class="flex-item bc_red-c-l">c l</view>
+          <view class="flex-item bc_red-c-driver"></view>
+          <view class="flex-item bc_red-c-m">c m</view>
+          <view class="flex-item bc_red-c-driver"></view>
+          <view class="flex-item bc_red-c-r">c r</view>
+        </view>
+      </view>
+    </view>
+    </view>
+    
+</view>

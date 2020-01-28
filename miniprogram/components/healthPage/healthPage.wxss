@@ -1,1 +1,42 @@
 /* components/healthPage/healthPage.wxss */
+
+.flex-wrp {display: flex;}
+.bc_red {background: red;width:100vw; height: 100vh;display: flex;justify-content: center;
+align-items: center;}
+.bc_blue {background: blue;width:50vw; height: 50vw;}
+
+.bc_red-a {background: greenyellow;width:50vw; height: 15vw;display: flex;flex-direction:row;}
+
+.bc_red-b {background: greenyellow;width:50vw; height: 15vw;display: flex;flex-direction:row;}
+
+.bc_red-c {background: greenyellow;width:50vw; height: 15vw;display: flex;flex-direction:row;}
+
+.bc_red-driver {background: blue;width:50vw; height: 2.6vw;}
+
+.bc_red-a-l {background: gold;width:25vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-a-r {background: yellow;width:25vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-b-l {background: gold;width:15vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-b-m {background: gold;width:15vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-b-r {background: yellow;width:15vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-b-driver {background: blue;width:2.6vw; height: 15vw;}
+
+.bc_red-c-l {background: gold;width:15vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-c-m {background: gold;width:15vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-c-r {background: yellow;width:15vw; height: 15vw;display: flex;justify-content: center;
+align-items: center;}
+
+.bc_red-c-driver {background: blue;width:2.6vw; height: 15vw;}
