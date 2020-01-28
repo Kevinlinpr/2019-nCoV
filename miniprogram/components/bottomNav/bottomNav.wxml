@@ -4,7 +4,7 @@
     <cover-view class="tab-bar-border"></cover-view>
     <cover-view wx:for="{{list}}" wx:key="index" class="tab-bar-item" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
       <cover-image src="{{selected === index ? item.selectedIconPath : item.iconPath}}"  style="width:{{imgWidth[index]}};height:{{imgHeight[index]}};color: {{selected === index ? selectedColor[index] : color}}" ></cover-image>
-      <cover-view style="font-size: {{fontSize[index]}};color: {{selected === index ? selectedColor[index] : color}}">{{item.text}}</cover-view>
+      <cover-view style="margin-top:{{marginTop[index]}};font-size: {{fontSize[index]}};color: {{selected === index ? selectedColor[index] : color}}">{{item.text}}</cover-view>
     </cover-view>
   </cover-view>
 </view>

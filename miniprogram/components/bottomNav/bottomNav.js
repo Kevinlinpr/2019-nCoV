@@ -13,6 +13,12 @@ Component({
    * 组件的初始数据
    */
   data: {
+    marginTop:[
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ],
     selectedColor:[
       "#f44336",
       "#ff9800",
@@ -61,7 +67,7 @@ Component({
     // 组件所在页面的生命周期函数
     show: function () {
       this.triggerEvent('myevent', { selectedBottomNavToIndex: 0 });
-      this.setData({ selected: 0, fontSize: ["13px", "10px", "10px", "10px"], imgHeight: ["32px", "27px", "27px", "27px"], imgWidth:["32px", "27px", "27px", "27px"]});
+      this.setData({ selected: 0, fontSize: ["13px", "10px", "10px", "10px"], imgHeight: ["36px", "27px", "27px", "27px"], imgWidth:["36px", "27px", "27px", "27px"]});
     },
     hide: function () { },
     resize: function () { },
