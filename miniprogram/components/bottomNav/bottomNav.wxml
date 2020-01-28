@@ -3,8 +3,8 @@
   <cover-view class="tab-bar">
     <cover-view class="tab-bar-border"></cover-view>
     <cover-view wx:for="{{list}}" wx:key="index" class="tab-bar-item" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
-      <cover-image src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></cover-image>
-      <cover-view style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</cover-view>
+      <cover-image style="width:{{imgWidth[index]}};height:{{imgHeight[index]}};" src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></cover-image>
+      <cover-view style="font-size: {{fontSize[index]}};color: {{selected === index ? selectedColor : color}}">{{item.text}}</cover-view>
     </cover-view>
   </cover-view>
 </view>

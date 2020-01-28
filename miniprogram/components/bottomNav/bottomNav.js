@@ -13,6 +13,24 @@ Component({
    * 组件的初始数据
    */
   data: {
+    imgWidth:[
+      "27px",
+      "27px",
+      "27px",
+      "27px"
+    ],
+    imgHeight:[
+      "27px",
+      "27px",
+      "27px",
+      "27px"
+    ],
+    fontSize: [
+      "10px",
+      "10px",
+      "10px",
+      "10px"
+    ],
     selected: 0,
     color: "#90a4ae",
     selectedColor: "#008394",
@@ -38,7 +56,7 @@ Component({
     // 组件所在页面的生命周期函数
     show: function () {
       this.triggerEvent('myevent', { selectedBottomNavToIndex: 0 });
-      this.setData({selected:0});
+      this.setData({ selected: 0, fontSize: ["13px", "10px", "10px", "10px"], imgHeight: ["32px", "27px", "27px", "27px"], imgWidth:["32px", "27px", "27px", "27px"]});
     },
     hide: function () { },
     resize: function () { },
@@ -52,7 +70,23 @@ Component({
       if (data.index == this.data.selected) {
         return;
       }
-      this.setData({ selected: data.index });
+      this.setData({ selected: data.index, 
+      fontSize: [
+        data.index == 0 ? "13px" : "10px", 
+        data.index == 1 ? "13px" : "10px",
+        data.index == 2 ? "13px" : "10px", 
+        data.index == 3 ? "13px" : "10px"], 
+      imgHeight: [
+        data.index == 0 ? "36px" : "27px", 
+        data.index == 1 ? "36px" : "27px", 
+        data.index == 2 ? "36px" : "27px",
+        data.index == 3 ? "36px" : "27px"], 
+      imgWidth: [
+        data.index == 0 ? "36px" : "27px", 
+        data.index == 1 ? "36px" : "27px", 
+        data.index == 2 ? "36px" : "27px", 
+        data.index == 3 ? "36px" : "27px"]
+      });
       this.triggerEvent('myevent', { selectedBottomNavToIndex: data.index });
     }
   }
