@@ -1,2 +1,57 @@
 <!--components/virusPage/virusPage.wxml-->
-<text>components/virusPage/virusPage.wxml</text>
+<view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item back">
+    <view class="flex-item buttom-group">
+     <view class="flex-wrp" style="flex-direction:column;">
+        <view class="flex-item buttom-group-l1">
+          <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item buttom-group-l1-l">
+                  <cover-image src="{{selectedItems[6] == 1?imgSrc[6][level]:imgSrc[6][0]}}" style="width:100px;height:100px" >
+                  </cover-image>
+                  <cover-view class="l1-l-cover" bindtap="onClick" id="{{index[6]}}" ></cover-view>
+                </view>
+                <view class="flex-item buttom-group-l1-r">
+                  <cover-image src="{{selectedItems[0] == 1?imgSrc[0][level]:imgSrc[0][0]}}" style="width:100px;height:100px" ></cover-image>
+                  <cover-view class="l1-r-cover" bindtap="onClick" id="{{index[0]}}" ></cover-view>
+                </view>
+          </view>
+        </view>
+        <view class="flex-item buttom-group-l2">
+          <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item buttom-group-l2-l">
+                  <cover-image src="{{selectedItems[5] == 1?imgSrc[5][level]:imgSrc[5][0]}}" style="width:100px;height:100px" ></cover-image>
+                  <cover-view class="l2-l-cover" bindtap="onClick" id="{{index[5]}}" ></cover-view>
+                  
+                </view>
+                <view class="flex-item buttom-group-l2-m">
+                <view class="userinfo-avatar">
+                  <open-data  type="userAvatarUrl"></open-data>
+                </view>
+                </view>
+                <view class="flex-item buttom-group-l2-r">
+                <cover-image src="{{selectedItems[1] == 1?imgSrc[1][level]:imgSrc[1][0]}}" style="width:100px;height:100px" ></cover-image>
+                <cover-view class="l2-r-cover" bindtap="onClick" id="{{index[1]}}" ></cover-view>
+                </view>
+          </view>
+        </view>
+        <view class="flex-item buttom-group-l3">
+          <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item buttom-group-l3-l">
+                <cover-image src="{{selectedItems[4] == 1?imgSrc[4][level]:imgSrc[4][0]}}" style="width:100px;height:100px" ></cover-image>
+                <cover-view class="l3-l-cover" bindtap="onClick" id="{{index[4]}}" ></cover-view>
+                </view>
+                <view class="flex-item buttom-group-l3-m">
+                <cover-image src="{{selectedItems[3] == 1?imgSrc[3][level]:imgSrc[3][0]}}" style="width:100px;height:100px" ></cover-image>
+                <cover-view class="l3-m-cover" bindtap="onClick" id="{{index[3]}}" ></cover-view>
+                </view>
+                <view class="flex-item buttom-group-l3-r">
+                <cover-image src="{{selectedItems[2] == 1?imgSrc[2][level]:imgSrc[2][0]}}" style="width:100px;height:100px" ></cover-image>
+                <cover-view class="l3-r-cover" bindtap="onClick" id="{{index[2]}}"></cover-view>
+                </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    </view>
+    
+</view>

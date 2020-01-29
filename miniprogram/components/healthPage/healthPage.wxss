@@ -18,7 +18,7 @@ align-items: center;}
 align-items: center;}
 
 .l1-l-cover {
-  background: blue;
+
   width:80px; 
   height: 65px;
   display: flex;
@@ -28,7 +28,7 @@ align-items: center;}
   }
 
 .l1-r-cover {
-  background: blue;
+
   width:80px; 
   height: 65px;
   display: flex;
@@ -38,7 +38,7 @@ align-items: center;}
   }
 
 .l2-l-cover {
-  background: blue;
+
   width:65px; 
   height: 70px;
   display: flex;
@@ -48,7 +48,7 @@ align-items: center;}
   }
 
   .l2-r-cover {
-    background: blue;
+
   width:65px; 
   height: 70px;
   display: flex;
@@ -58,7 +58,7 @@ align-items: center;}
   }
 
   .l3-l-cover {
-    background: blue;
+
   width:70px; 
   height: 75px;
   display: flex;
@@ -67,7 +67,7 @@ align-items: center;}
   }
 
   .l3-m-cover {
-    background: blue;
+
   width:70px; 
   height: 65px;
   display: flex;
@@ -76,7 +76,7 @@ align-items: center;}
   }
 
   .l3-r-cover {
-    background: blue;
+
   width:70px; 
   height: 75px;
   display: flex;
