@@ -21,8 +21,13 @@
                 <view class="flex-item buttom-group-l2-l">
                   <cover-image src="{{selectedItems[5] == 1?itemImageLib[5].selected:itemImageLib[5].unSelected}}" style="width:100px;height:100px" ></cover-image>
                   <cover-view class="l2-l-cover" bindtap="onClick" id="{{index[5]}}" ></cover-view>
+                  
                 </view>
-                
+                <view class="flex-item buttom-group-l2-m">
+                <view class="userinfo-avatar">
+                  <open-data  type="userAvatarUrl"></open-data>
+                </view>
+                </view>
                 <view class="flex-item buttom-group-l2-r">
                 <cover-image src="{{selectedItems[1] == 1?itemImageLib[1].selected:itemImageLib[1].unSelected}}" style="width:100px;height:100px" ></cover-image>
                 <cover-view class="l2-r-cover" bindtap="onClick" id="{{index[1]}}" ></cover-view>
