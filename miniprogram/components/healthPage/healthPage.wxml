@@ -6,36 +6,34 @@
         <view class="flex-item buttom-group-l1">
           <view class="flex-wrp" style="flex-direction:row;">
                 <view class="flex-item buttom-group-l1-l">
-                  <cover-image src="./toutong_HL.png" style="width:100px;height:100px"></cover-image>
+                  <cover-image src="{{selectedItems[6] == 1?itemImageLib[6].selected:itemImageLib[6].unSelected}}" style="width:100px;height:100px" bindtap="onClick" id="{{index[6]}}" ></cover-image>
                 </view>
                 <view class="flex-item buttom-group-l1-r">
-                  <cover-image src="./ganmao_HL.png" style="width:100px;height:100px"></cover-image>
+                  <cover-image src="{{selectedItems[0] == 1?itemImageLib[0].selected:itemImageLib[0].unSelected}}" style="width:100px;height:100px" bindtap="onClick" id="{{index[0]}}" ></cover-image>
                 </view>
           </view>
         </view>
         <view class="flex-item buttom-group-l2">
           <view class="flex-wrp" style="flex-direction:row;">
                 <view class="flex-item buttom-group-l2-l">
-                  <cover-image src="./huxikunnan_HL.png" style="width:100px;height:100px"></cover-image>
+                  <cover-image src="{{selectedItems[5] == 1?itemImageLib[5].selected:itemImageLib[5].unSelected}}" style="width:100px;height:100px" bindtap="onClick" id="{{index[5]}}" ></cover-image>
                 </view>
-                <view class="flex-item buttom-group-l2-m">
-                  
-                </view>
+                
                 <view class="flex-item buttom-group-l2-r">
-                <cover-image src="./changweibushi_HL.png" style="width:100px;height:100px"></cover-image>
+                <cover-image src="{{selectedItems[1] == 1?itemImageLib[1].selected:itemImageLib[1].unSelected}}" style="width:100px;height:100px" bindtap="onClick" id="{{index[1]}}" ></cover-image>
                 </view>
           </view>
         </view>
         <view class="flex-item buttom-group-l3">
           <view class="flex-wrp" style="flex-direction:row;">
                 <view class="flex-item buttom-group-l3-l">
-                <cover-image src="./fashao_HL.png" style="width:100px;height:100px"></cover-image>
+                <cover-image src="{{selectedItems[4] == 1?itemImageLib[4].selected:itemImageLib[4].unSelected}}" style="width:100px;height:100px" bindtap="onClick" id="{{index[4]}}" ></cover-image>
                 </view>
                 <view class="flex-item buttom-group-l3-m">
-                <cover-image src="./zhengchang_HL.png" style="width:100px;height:100px"></cover-image>
+                <cover-image src="{{selectedItems[3] == 1?itemImageLib[3].selected:itemImageLib[3].unSelected}}" style="width:100px;height:100px" bindtap="onClick" id="{{index[3]}}" ></cover-image>
                 </view>
                 <view class="flex-item buttom-group-l3-r">
-                <cover-image src="./kesou_HL.png" style="width:100px;height:100px"></cover-image>
+                <cover-image src="{{selectedItems[2] == 1?itemImageLib[2].selected:itemImageLib[2].unSelected}}" style="width:100px;height:100px" bindtap="onClick" id="{{index[2]}}" ></cover-image>
                 </view>
           </view>
         </view>

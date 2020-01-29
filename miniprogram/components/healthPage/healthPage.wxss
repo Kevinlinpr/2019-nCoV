@@ -21,13 +21,13 @@ align-items: center;}
 align-items: center;}
 
 .buttom-group-l2-l {width:100px; height: 100px;display: flex;justify-content: center;
-align-items: center;}
+align-items: center;margin-right: 36px}
 
 .buttom-group-l2-m {width:100px; height: 100px;display: flex;justify-content: center;
-align-items: center;margin-left: -15px;margin-right: -15px}
+align-items: center;}
 
 .buttom-group-l2-r {width:100px; height: 100px;display: flex;justify-content: center;
-align-items: center;}
+align-items: center;margin-left: 36px;}
 
 .buttom-group-l3-l {width:100px; height: 100px;display: flex;justify-content: center;
 align-items: center;}
