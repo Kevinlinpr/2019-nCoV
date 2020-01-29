@@ -53,6 +53,7 @@ Component({
    */
   methods: {
     onClick: function(e){
+      wx.vibrateShort();
       const data = e.currentTarget;
       console.log("点击了："+data.id);
       console.log("原本："+this.data.selectedItemsProps)
