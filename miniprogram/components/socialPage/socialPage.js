@@ -37,6 +37,7 @@ Component({
       const data = e.currentTarget;
       console.log("点击了：" + data.id);
       console.log("原本：" + this.data.selectedItemsProps)
+      this.data.selectedItemsProps = [0,0,0,0,0,0,0];
       this.data.selectedItemsProps[data.id] = this.data.selectedItemsProps[data.id] == 1 ? 0 : 1;
       console.log("现在：" + this.data.selectedItemsProps)
       this.setData({
