@@ -100,6 +100,7 @@ Component({
         data.index == 3 ? "36px" : "27px"]
       });
       this.triggerEvent('myevent', { selectedBottomNavToIndex: data.index });
+      
     }
   }
 })

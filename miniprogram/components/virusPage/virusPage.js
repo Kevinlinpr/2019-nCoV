@@ -4,14 +4,8 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    selectedItemsProps: {
-      type: Array,
-      value: [0, 0, 0, 0, 0, 0, 0]
-    },
-    level: {
-      type: Number,
-      value: 0
-    }
+    selectedItemsProps: Array,
+    level: Number
   },
 
   /**
@@ -119,6 +113,7 @@ Component({
         level: this.data.level
       });
       console.log("level: " + this.data.level);
+      this.triggerEvent('updatevirusevent', { virusPageSelected: this.data.selectedItemsProps });
     }
   }
 })

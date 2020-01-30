@@ -2,16 +2,16 @@
 <view class="container">
     
     <view wx:if="{{selectedBottomNavToIndex == 0}}">
-    <health-page/>
+    <health-page selectedItemsProps="{{healthPageSelected}}" bind:updatehealthevent="onUpdateHealthEvent"/>
     </view>
     <view wx:elif="{{selectedBottomNavToIndex == 1}}">
     <activity-page/>
     </view>
     <view wx:elif="{{selectedBottomNavToIndex == 2}}">
-    <virus-page/>
+    <virus-page selectedItemsProps="{{virusPageSelected}}"   level="{{level}}" bind:updatevirusevent="onUpdateVirusEvent"/>
     </view>
     <view wx:else="{{selectedBottomNavToIndex == 3}}">
-    <social-page/>
+    <social-page selectedItemsProps="{{socialPageSelected}}"  bind:updatesocialevent="onUpdateSocialEvent"/>
     </view>
     <custom-nav bind:myevent="onMyEvent"/>
 </view>

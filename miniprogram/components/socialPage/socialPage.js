@@ -4,10 +4,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    selectedItemsProps: {
-      type: Array,
-      value: [0, 0]
-    }
+    selectedItemsProps: Array
   },
 
   /**
@@ -51,7 +48,8 @@ Component({
       console.log("现在：" + this.data.selectedItemsProps)
       this.setData({
         selectedItems: this.data.selectedItemsProps
-      })
+      });
+      this.triggerEvent('updatesocialevent', { socialPageSelected: this.data.selectedItemsProps });
     }
   }
 })
