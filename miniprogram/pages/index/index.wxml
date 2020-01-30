@@ -5,7 +5,7 @@
     <health-page selectedItemsProps="{{healthPageSelected}}" bind:updatehealthevent="onUpdateHealthEvent"/>
     </view>
     <view wx:elif="{{selectedBottomNavToIndex == 1}}">
-    <activity-page/>
+    <activity-page style="opacity:{{opacity}}"/>
     </view>
     <view wx:elif="{{selectedBottomNavToIndex == 2}}">
     <virus-page selectedItemsProps="{{virusPageSelected}}"   level="{{level}}" bind:updatevirusevent="onUpdateVirusEvent"/>
