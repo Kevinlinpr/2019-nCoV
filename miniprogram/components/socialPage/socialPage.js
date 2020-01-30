@@ -37,8 +37,17 @@ Component({
       const data = e.currentTarget;
       console.log("点击了：" + data.id);
       console.log("原本：" + this.data.selectedItemsProps)
-      this.data.selectedItemsProps = [0,0,0,0,0,0,0];
-      this.data.selectedItemsProps[data.id] = this.data.selectedItemsProps[data.id] == 1 ? 0 : 1;
+      let count = this.data.selectedItemsProps[0]+this.data.selectedItemsProps[1];
+      if(count>0){
+        if(this.data.selectedItemsProps[data.id]==1){
+          this.data.selectedItemsProps[data.id] = 0;
+        }else{
+          this.data.selectedItemsProps = [0,0];
+          this.data.selectedItemsProps[data.id] = 1;
+        }
+      }else{
+        this.data.selectedItemsProps[data.id] = 1;
+      }
       console.log("现在：" + this.data.selectedItemsProps)
       this.setData({
         selectedItems: this.data.selectedItemsProps
